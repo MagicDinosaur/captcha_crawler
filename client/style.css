@@ -1,0 +1,52 @@
+body {
+    background: #e1e5e9;
+}
+
+.card {
+    border: none;
+    height: 320px
+}
+
+.forms-inputs {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.forms-inputs span {
+    position: absolute;
+    top: -18px;
+    left: 10px;
+    background-color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+    
+}
+
+.forms-inputs input {
+    height: 50px;
+    width: 70%;
+    border: 2px solid #eee;
+    
+}
+
+.forms-inputs input:focus {
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #C1CDDB;
+}
+
+.btn {
+    height: 50px;
+    background-color: #AABACA;
+    color: rgb(91, 88, 88);
+}
+
+.success-data {
+    display: flex;
+    flex-direction: column
+}
+
+.bxs-badge-check {
+    font-size: 90px
+}
